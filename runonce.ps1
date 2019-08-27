@@ -19,7 +19,7 @@ function callItIn($c, $m) {
     $m | out-file -Append $output_path
     return
 }
-
+#############
 $global:isHyperV = $false
 
 function phoneHome($m) {
